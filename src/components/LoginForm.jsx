@@ -99,14 +99,14 @@ export default function LoginForm() {
           </Button>
         </Form.Item>
       </Form>
-      <Flex gap={8} justify="center" items="center" className="w-full my-10">
+      {/* <Flex gap={8} justify="center" items="center" className="w-full my-10">
         <div className="w-full h-[0.5px] my-2 bg-gray-600"></div>
         <p className="px-2 text-center text-gray-300">hoặc</p>
         <div className="w-full h-[0.5px] my-2 bg-gray-600"></div>
       </Flex>
       <Flex className="w-full !mt-5" justify="center">
         <GoogleAuthProvider.GoogleLoginButton />
-      </Flex>
+      </Flex> */}
     </div>
   );
 }
